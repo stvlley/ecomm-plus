@@ -2,10 +2,10 @@ import React from 'react'
 import './Product.css'
 
 
-function Product({ title, image, price, rating }) {
+function Product({ title, image, price, rating, id }) {
     return (
         <div className='product'>
-            <div className='product__info'>
+            <div key={id}  className='product__info'>
                 <p>{title}</p>
                 <p className='product__price'>
                     <small>$</small>
