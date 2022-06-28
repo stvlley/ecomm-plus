@@ -6,8 +6,7 @@ import Product from "./Product";
 
 function Home() {
   return (
-  <>
-  <Header />
+
     <div className="home">
 
       <div className="home__container">
@@ -69,7 +68,6 @@ function Home() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 
